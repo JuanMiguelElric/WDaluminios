@@ -1,0 +1,527 @@
+.logo {
+  position: absolute;
+  margin-top: -4%;
+  margin-left: -4%;
+  padding-right: 50%;
+  
+  
+  width: 22vmin;
+  height: auto;
+  z-index: 5;
+}
+
+
+.menu{
+  width: 100%;
+  min-height: 27px;
+  background:none;
+  color: white;
+}
+.ulmenu {
+  color:rgb(240, 240, 240);
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-left: 0px;
+  margin-top: 2%;
+  text-align: justify;
+  justify-content: space-around;
+}
+.Afastar{
+  padding-left: 26%;
+}
+.buttonnobackground{
+  background: none;
+  border: 4px solid #de5600;
+  color: #de5600;
+  border-radius: 20px;
+  padding: 8px;
+  font-family: Montserrat;
+  margin-top: -10%;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+}
+.primeirasection{
+  margin-left: 10%;
+  color: #fff;
+  float: left;
+}
+.primeirasectionright{
+  
+  float: right;
+
+}
+h1{
+  font-size: 7vmax;
+  
+}
+.agrupar{
+  position:absolute;
+  top: 27%;
+}
+.logolandin{
+  width: 50vmax;
+  position: absolute;
+  top: 27%;
+  left: 4%;
+}
+
+.mulher {
+  width: 40%;
+  position: absolute;
+  right: 100%;
+  z-index: 100;
+  animation-name: slideLeft;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes slideLeft {
+  0% {
+      left: 100%; /* Estado inicial da animação */
+  }
+  100% {
+      right: 8%; /* Estado final da animação */
+  }
+}
+.segundasection{
+  background-image: url("./images/2partefundo.png");
+  width: auto;
+  height: auto;
+  background-color: white;
+  margin-top: 57%;
+  padding-top: 10%;
+  padding-bottom: 10px;
+  color: #0063a1;
+
+
+}
+.position{
+  margin-top: 4%;
+  position: relative;
+  left: 20%;
+  z-index: 200;
+  
+}
+
+.retangulo{
+  width: 30%;
+  height: auto;
+  border:7px solid #de5600;
+  float: right;
+  margin-right: 10%;
+  padding-top:2%;
+  padding-bottom: 2%;
+  padding-left: 15%;
+  padding-right: 2%;
+  z-index: 100;
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: transform 0.7s ease, opacity 0.7s ease;
+  
+}
+.retangulo.ativada{
+  transform: translateX(0);
+  opacity: 1;
+}
+/*tudo referente a 3ª seção*/
+.textoterceirasection{
+  width: 37%;
+  float: left;
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  
+
+}
+.menu-bar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50vmax;
+  height: 100vh;
+  background-color: #000000;
+  padding: 20px;
+  z-index: 1000;
+}
+h2{
+  color: #de5600;
+  margin-left: 10%;
+  font-size: 4vmax;
+}
+h3{
+  color: #de5600;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 6vmax;
+}
+.buttonnobackgroundposition{
+  background: none;
+  border: 4px solid #de5600;
+  color: #de5600;
+  border-radius: 20px;
+  padding: 8px;
+  font-family: Montserrat;
+  margin-top: 7%;
+  margin-left: 25%;
+
+}
+.operario{
+  width: 43vmax;
+  margin-right: -10%;
+  margin-top: -6%;
+}
+.textoterceirasection.ativarani{
+  transform: translateX(0);
+  opacity: 1;
+
+}
+/* quarta seção da landing page */
+.quartasection{
+  background-image: url("./images/4sectionbackground.png");
+  width: auto;
+  height: auto;
+  background-color: white;
+  margin-top: 47%;
+  padding-bottom: 10px;
+  color: #0063a1;
+}
+.quartazin{
+  margin-left: 1%;
+  margin-top: 5%;
+  width: 50%;
+  font-size: 4vmin;
+
+}
+.Quintasection{
+  background-image: url("./images/backgroundquintapage.png");
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #de5600;
+  text-align: center;
+  background-color: white;
+  margin-top: 0%;
+  padding-top: 10%;
+  padding-left: 6%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  gap: 5%;
+
+
+}
+.card1,.card2,.card3,.card4{
+  width: 30vmin;
+  text-align: center;
+  font-size: 20px;
+  border: 4px solid #de5600;
+  border-radius: 7%;
+  padding-top: 4%;
+  padding-left: 2%;
+  padding-right: 3%;
+  margin-top: 0%;
+  margin-bottom: 10%;
+
+
+
+ 
+}
+
+.imgcard1{
+  width: 30vmin;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.textocar{
+  font-size: 2vmin;
+  color: black;
+}
+.buttonquintasection{
+  background: black;
+  border: 4px solid #de5600;
+  color: #de5600;
+  border-radius: 20px;
+  padding: 8px;
+  font-family: Montserrat;
+  margin-top: 7%;
+
+  margin-bottom: 10%;
+}
+/* tudo destinado para o rodapé aqui ninguém coda fofo não*/
+footer{
+  color: #fff;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+}
+.logorodape{
+  width: 20%;
+}
+h5{
+  color: #de5600;
+  font-size: 4vmin;
+}
+ul{
+  list-style: none;
+}
+.App-logo {
+  height: 5vmin;
+  margin-left:26px ;
+  
+}
+
+/* ajuste de telas */
+@media screen and (min-width:300px) and (max-width:760px){
+  .remove{
+    display: none;
+  }
+  .botaotelaspequenas{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0%;
+  }
+  .logo{
+    position: absolute;
+    left: 1%;
+  }
+  .agrupar{
+    position:absolute;
+    top: 15%;
+  }
+  .logolandin{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    margin-bottom: 10%;
+
+  }
+  .primeirasection{
+    padding-left: 10%;
+    padding-bottom: 10%;
+  }
+  .mulher {
+    width: 60%;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    z-index: 100;
+    
+  }
+  .segundasection{
+    height: 100vmax;
+    margin-top: 100%;
+    padding-top: 0%;
+    
+  }
+  .retangulo{
+    margin-left: 5%;
+    width: 59%;
+    height: auto;
+    border:7px solid #de5600;
+    margin-top: 4%;
+    padding-left: 3%;
+    padding-top: 0%;
+  }
+  .textoterceirasection{
+    width: 90%;
+    margin-top: -12%;
+  }
+  .buttonnobackgroundposition{
+    margin-top: 0%;
+    margin-left: 3%;
+  }
+  .quartasection{
+   
+    margin-top: 100%;
+    padding-top: 6%;
+    padding-bottom: 8%;
+  }
+  .quartazin{
+    width: 100%;
+  }
+  .Quintasection{
+    background-image: url("./images/fundocelular.png");
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 43%;
+    padding-bottom: 39%;
+  }
+  .card1,.card2,.card3,.card4{
+    width: 60vmin;
+
+  }
+  .imgcard1{
+    width: 70vmin;
+    margin-left:-10%;
+  }
+  footer{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logorodape{
+    width: 50%;
+    margin-left: 25%;
+  }
+ 
+
+
+  
+}
+@media screen and (min-width:761px) and (max-width:800px){
+  .removetelamedia{
+    display: none;
+
+  }
+  .botaotelasmedias{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0%;
+  }
+  .logo{
+    position: absolute;
+    left: 0%;
+  }
+  .agrupar{
+    position: absolute;
+    top: 20%;
+    
+  }
+  .logolandin{
+    position: absolute;
+    top: 27%;
+  }
+  h1{
+    font-size: 10vmax;
+  }
+  .segundasection{
+    height: 80vmax;
+    margin-top: 100%;
+    padding-top: 0%;
+    
+  }
+  .textoterceirasection{
+    width: 90%;
+    margin-top: -5%;
+  }
+  .quartasection{
+   
+    margin-top: 50%;
+    padding-top: 6%;
+    padding-bottom: 8%;
+  }
+  .quartazin{
+    width: 100%;
+  }
+  .Quintasection{
+    background-image: url("./images/fundocelular.png");
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 43%;
+    padding-bottom: 39%;
+  }
+  .card1,.card2,.card3,.card4{
+    width: 60vmin;
+
+  }
+  .imgcard1{
+    width: 70vmin;
+    margin-left:-10%;
+  }
+  footer{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logorodape{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+}
+@media screen and (min-width:801px) and (max-width:1080px) {
+  .removetelagrande{
+    display: none;
+    
+  }
+  .segundasection{
+    width: 100vmax;
+    height: 80vmax;
+    margin-top: 100%;
+    padding-top: 20%;
+  } 
+  .textoterceirasection{
+    width: 50%;
+    margin-top: -5%;
+  }
+  .quartasection{
+   
+    margin-top: 60%;
+    padding-top: 6%;
+    padding-bottom: 8%;
+  }
+  .quartazin{
+    width: 100%;
+  }
+  .Quintasection{
+    background-image: url("./images/fundocelular.png");
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 43%;
+    padding-bottom: 39%;
+  }
+  footer{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .retangulo{
+    width: 60%;
+  }
+  .card1,.card2,.card3,.card4{
+    width: 60vmin;
+
+  } 
+  .imgcard1{
+    width: 70vmin;
+    margin-left:-10%;
+  }
+  
+}
+@media screen and (min-width:1090px) and (max-width:30000px){
+  .removertelamaior{
+    display: none;
+  }
+  .position{
+    width: 50vmin;
+    margin-top: 7%;
+    margin-left: -5%;
+  }
+  .card1,.card2,.card3,.card4{
+    width: 32vmin;
+    height: 34vmax;
+    margin-top: 10%;
+    border-radius: 30px;
+
+
+  }
+  .imgcard1{
+    width: 37vmin;
+    margin-left:-10%;
+  }
+
+}
