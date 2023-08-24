@@ -7,7 +7,7 @@ const QuintaSection = () =>{
     return(
         <div>
                 <h3>Outros kits</h3>
-            <div className="Quintasection">
+            <div className="Quintasection backgroundwindowsmall backgroundwindowmind">
                 <br/>
                 <div className="card1 ">
                     <img src={janela} className="imgcard1" alt="kitJanelas" />

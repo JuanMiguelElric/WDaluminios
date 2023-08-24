@@ -94,15 +94,15 @@ h1{
   background-color: white;
   margin-top: 57%;
   padding-top: 10%;
-  padding-bottom: 10px;
+  padding-bottom: 10%;
   color: #0063a1;
 
 
 }
 .position{
-  margin-top: 4%;
+  margin-top: -4%;
   position: relative;
-  left: 20%;
+  left: 30%;
   z-index: 200;
   
 }
@@ -113,6 +113,7 @@ h1{
   border:7px solid #de5600;
   float: right;
   margin-right: 10%;
+  margin-bottom: 20%;
   padding-top:2%;
   padding-bottom: 2%;
   padding-left: 15%;
@@ -277,251 +278,120 @@ ul{
   margin-left:26px ;
   
 }
-
-/* ajuste de telas */
-@media screen and (min-width:300px) and (max-width:760px){
-  .remove{
-    display: none;
-  }
-  .botaotelaspequenas{
-    background: none;
-    border: none;
-    position: absolute;
-    right: 0%;
-  }
-  .logo{
-    position: absolute;
-    left: 1%;
-  }
-  .agrupar{
-    position:absolute;
-    top: 15%;
-  }
-  .logolandin{
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    margin-bottom: 10%;
-
-  }
-  .primeirasection{
-    padding-left: 10%;
-    padding-bottom: 10%;
-  }
-  .mulher {
-    width: 60%;
-    position: absolute;
-    right: 100%;
-    top: 50%;
-    z-index: 100;
+/* Exemplo de media query para tamanho de tela pequeno */
+@media screen and (max-width: 767px) {
+  /* Estilos para telas pequenas */
+  .ulmenu{
+    gap: 80%;
+    margin-left: 10%;
     
+  }
+  .removeTelpeq{
+    display: none;
   }
   .segundasection{
-    height: 100vmax;
-    margin-top: 100%;
-    padding-top: 0%;
-    
-  }
-  .retangulo{
-    margin-left: 5%;
-    width: 59%;
-    height: auto;
-    border:7px solid #de5600;
-    margin-top: 4%;
-    padding-left: 3%;
-    padding-top: 0%;
-  }
-  .textoterceirasection{
-    width: 90%;
-    margin-top: -12%;
-  }
-  .buttonnobackgroundposition{
-    margin-top: 0%;
-    margin-left: 3%;
-  }
-  .quartasection{
-   
-    margin-top: 100%;
-    padding-top: 6%;
-    padding-bottom: 8%;
-  }
-  .quartazin{
-    width: 100%;
-  }
-  .Quintasection{
-    background-image: url("./images/fundocelular.png");
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 43%;
-    padding-bottom: 39%;
-  }
-  .card1,.card2,.card3,.card4{
-    width: 60vmin;
+    height: 90vmax;
+    margin-top:180% ;
 
-  }
-  .imgcard1{
-    width: 70vmin;
-    margin-left:-10%;
-  }
-  footer{
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .logorodape{
-    width: 50%;
-    margin-left: 25%;
-  }
- 
-
-
-  
-}
-@media screen and (min-width:761px) and (max-width:800px){
-  .removetelamedia{
-    display: none;
-
-  }
-  .botaotelasmedias{
-    background: none;
-    border: none;
-    position: absolute;
-    right: 0%;
-  }
-  .logo{
-    position: absolute;
-    left: 0%;
-  }
-  .agrupar{
-    position: absolute;
-    top: 20%;
-    
-  }
-  .logolandin{
-    position: absolute;
-    top: 27%;
   }
   h1{
-    font-size: 10vmax;
+    font-size: 8vmax;
   }
-  .segundasection{
-    height: 80vmax;
-    margin-top: 100%;
-    padding-top: 0%;
-    
-  }
-  .textoterceirasection{
-    width: 90%;
-    margin-top: -5%;
-  }
-  .quartasection{
-   
-    margin-top: 50%;
-    padding-top: 6%;
-    padding-bottom: 8%;
-  }
-  .quartazin{
-    width: 100%;
-  }
-  .Quintasection{
-    background-image: url("./images/fundocelular.png");
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 43%;
-    padding-bottom: 39%;
-  }
-  .card1,.card2,.card3,.card4{
-    width: 60vmin;
-
-  }
-  .imgcard1{
-    width: 70vmin;
-    margin-left:-10%;
-  }
-  footer{
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .logorodape{
-    width: 50%;
-    margin-left: 25%;
-  }
-
-}
-@media screen and (min-width:801px) and (max-width:1080px) {
-  .removetelagrande{
-    display: none;
-    
-  }
-  .segundasection{
-    width: 100vmax;
-    height: 80vmax;
-    margin-top: 100%;
-    padding-top: 20%;
-  } 
-  .textoterceirasection{
-    width: 50%;
-    margin-top: -5%;
-  }
-  .quartasection{
-   
-    margin-top: 60%;
-    padding-top: 6%;
-    padding-bottom: 8%;
-  }
-  .quartazin{
-    width: 100%;
-  }
-  .Quintasection{
-    background-image: url("./images/fundocelular.png");
-    width: 100%;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 43%;
-    padding-bottom: 39%;
-  }
-  footer{
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  .logolandin{
+    font-size: 30%;
+    margin-top: 40%;
+    margin-right: 80%;
   }
   .retangulo{
     width: 60%;
   }
-  .card1,.card2,.card3,.card4{
-    width: 60vmin;
-
-  } 
-  .imgcard1{
-    width: 70vmin;
-    margin-left:-10%;
+  .textoterceirasection{
+    width: 95%;
   }
-  
+  .quartasection{
+    margin-top: 130%;
+    padding: 7%;
+  }
+  .quartazin{
+    width: 100%;
+
+  }
+  .backgroundwindowsmall{
+    background-image: url("./images/fundocelular.png");
+    height: auto;
+    padding-top: 50%;
+    padding-bottom: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .card1,.card2,.card3,.card4{
+    width: 70%;
+  }
 }
-@media screen and (min-width:1090px) and (max-width:30000px){
-  .removertelamaior{
+
+/* Exemplo de media query para tamanho de tela médio */
+@media screen and (min-width: 760px) and (max-width: 1023px) {
+  /* Estilos para telas médias */
+  .removeTelmed{
     display: none;
   }
-  .position{
-    width: 50vmin;
-    margin-top: 7%;
-    margin-left: -5%;
+  .agrupar{
+    margin-top: -3%;
   }
-  .card1,.card2,.card3,.card4{
-    width: 32vmin;
-    height: 34vmax;
-    margin-top: 10%;
-    border-radius: 30px;
+  .segundasection{
+    margin-top: 90%;
+    height: 30vmax;
+    padding-left: 10%;
+  }
+  .retangulo{
+    width: 80%;
+    padding-left: 6%;
+  }
+  .quartasection{
+    height: auto;
+    margin-top: 77%;
+    padding-left: 3%;
+ 
+    
+  }
+  .quartazin{
+    width: 90%;
+    margin-left: 3%;
+  }
+  .backgroundwindowmind{
+    background-image: url("./images/fundocelular.png");
+    height: auto;
+    padding-top: 50%;
+    padding-bottom: 60%;
+    display: flex;
+    flex-direction: column;
+  }
 
-
-  }
-  .imgcard1{
-    width: 37vmin;
-    margin-left:-10%;
-  }
 
 }
+/* Exemplo de media query para tamanho de tela grande */
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  /* Estilos para telas grandes */
+  .removeTelgrand{
+    display: none;
+  }
+  .operario{
+    margin-top: -23%;
+  }
+}
+
+
+
+
+
+
+
+/* TESTE 
+
+.container {
+  max-width: 1246px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 15px;
+}
+*/

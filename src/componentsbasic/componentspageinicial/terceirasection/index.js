@@ -34,7 +34,7 @@ const Terceirasection =() =>{
 
                 </div>
                 <div style={{float:"right"}}>
-                    <img src={operaro} className="operario remove removetelamedia" alt="operario"/>
+                    <img src={operaro} className="operario removeTelpeq" alt="operario"/>
                 </div>
             </div>
         </section>

@@ -20,7 +20,7 @@ const Segundasection=()=>{
         <section className="segundasection ">
             <div>
                 
-                <img src={i2} className="position remove removetelamedia removetelagrande" alt="sede"/>
+                <img src={i2} style={{width:"30%  "}} className="position removeTelpeq removeTelmed" alt="sede"/>
               
                 <div className={`retangulo ${ativo ? "ativada" : ""}`}>
                    <p>  Fundada em 2007 a WD Alumínios tornou-se a maior e mais completa distribuidora de alumínios, ferragens e acessórios para vidraçarias de Minas Gerais, figurando entre as 5 maiores do Brasil.</p>

@@ -15,7 +15,7 @@ function Primeirasecao(){
 
             </div>
             <div className="primeirasectionright">
-                <img src={mulher} className="mulher remove  " alt="mulher wd"/>
+                <img src={mulher} className="mulher removeTelpeq removeTelmed  " alt="mulher wd"/>
             </div>
         </section>
         
