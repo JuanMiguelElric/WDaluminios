@@ -3,7 +3,7 @@ import "../App.css";
 import logo from  "../images/logosemfundo.png";
 import { FaSquare } from 'react-icons/fa';
 import hamburguer from "../images/hamburguer.png"
-import { Link } from "react-router-dom";
+
 const Menu = () =>{
     const [toogle,setToogle] = useState(false);
     const hamburguertoogle= ()=>{
@@ -19,9 +19,9 @@ const Menu = () =>{
                 <li className="Afastar removeTelpeq" style={{color:"#de5600"}}> Home</li>
                 <li className="removeTelpeq" >
                     
-                    <Link to="/quemsomos">
-                        Quem somos
-                    </Link>
+              
+                    Quem somos
+                   
                 </li>
                 <li className="removeTelpeq" > PRODUTOS</li>
                 <li className="removeTelpeq" > LOCALIZAÇÃO</li>

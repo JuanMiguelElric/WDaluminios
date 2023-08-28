@@ -7,6 +7,7 @@ const Segundasection=()=>{
         const elemento = document.querySelector(".retangulo");
         const handleSroll = () =>{
             const posicao = elemento.getBoundingClientRect().top;
+            //se a posição do em altura for menor artivação da altura
             if(posicao < window.innerHeight && !ativo){
                 setAtivo(true);
             }
