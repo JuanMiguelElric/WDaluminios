@@ -328,6 +328,40 @@ ul{
     width: 70%;
   }
 }
+/*  css destinado a page de */
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:100px 200px;
+  gap: 10px;
+}
+.griditem{
+  color:white;
+  margin-top: 10%;
+}
+/* css destinado a pagina quem somos */
+
+.container2{
+  background-color: #fff;
+  max-width: 1246px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+ 
+  
+}
+.colunasegundaparte{
+  width: 50%; 
+
+}
+.loja01.loja02{
+  width: 200px;
+
+}
+
 
 /* Exemplo de media query para tamanho de tela médio */
 @media screen and (min-width: 760px) and (max-width: 1023px) {
@@ -376,7 +410,7 @@ ul{
     display: none;
   }
   .operario{
-    margin-top: -23%;
+    margin-top: -39%;
   }
 }
 

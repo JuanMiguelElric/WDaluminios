@@ -1,11 +1,11 @@
 import React from "react";
-import PrimeiraPage from "./screens/pageini";
+import Rotas from "./route";
 
 
 function App() {
   return (
     <div>
-      <PrimeiraPage />
+      <Rotas />
 
      
     </div>
